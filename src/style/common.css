@@ -1,0 +1,67 @@
+/* 封装flex */
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+/* 封装h2 */
+h2 {
+  font-weight: 500;
+}
+
+.h2 {
+  color: rgba(69, 90, 100, 0.6);
+  font-weight: normal;
+  font-size: 1.3rem;
+  margin: 15px 0 15px 10px;
+}
+
+/* 页面切换动画 */
+.vux-pop-out-enter-active,
+.vux-pop-out-leave-active,
+.vux-pop-in-enter-active,
+.vux-pop-in-leave-active {
+  will-change: transform;
+  transition: all 500ms;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  perspective: 1000;
+}
+.vux-pop-out-enter {
+  opacity: 0;
+  transform: translate3d(-100%, 0, 0);
+}
+.vux-pop-out-leave-active {
+  opacity: 0;
+  transform: translate3d(100%, 0, 0);
+}
+.vux-pop-in-enter {
+  opacity: 0;
+  transform: translate3d(100%, 0, 0);
+}
+.vux-pop-in-leave-active {
+  opacity: 0;
+  transform: translate3d(-100%, 0, 0);
+}
+
+.router-view{
+  width: 100%;
+  position: absolute;
+  -webkit-transition: all .3s cubic-bezier(.55,0,.1,1);
+  -moz-transition: all .3s cubic-bezier(.55,0,.1,1);
+  -ms-transition: all .3s cubic-bezier(.55,0,.1,1);
+  -o-transition: all .3s cubic-bezier(.55,0,.1,1);
+  transition: all .3s cubic-bezier(.55,0,.1,1);
+  height:100%;
+}
