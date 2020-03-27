@@ -33,11 +33,11 @@ export default {
     background: white;
 }
 
-.center .func-list .center-func .center-func-left {
+.center .center-func .center-func-left {
     flex: 1;
 }
 
-.center .func-list .center-func .center-func-left img {
+.center .center-func .center-func-left img {
     width: 40%;
     height: 40%;
 }
@@ -48,7 +48,7 @@ export default {
     font-size: .8rem;
 }
 
-.center .func-list .center-func .center-func-right {
+.center .center-func .center-func-right {
     flex: 1;
 }
 

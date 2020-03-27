@@ -59,7 +59,7 @@ export default {
     height: 100%;
 }
 
-.van-cell__title {
+.manager .van-cell__title {
     font-size: 1.2rem;
     color: rgba(69, 90, 100, 0.6);
 }

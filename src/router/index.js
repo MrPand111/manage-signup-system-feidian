@@ -12,6 +12,7 @@ const routes = [
   { path: '/user/edit',meta: {title: '修改资料',index: 3},component: () => import('../views/EditUser/EditUser.vue') },         // 修改资料页
   { path: '/system/list/:type',meta: {title: '组织列表',index: 3},component: () => import('../views/OrgList/OrgList.vue') },   // 组织列表页
   { path: '/system/build',meta: {title: '创建组织',index: 3},component: () => import('../views/BuildOrg/BuildOrg.vue') },      // 创建组织页
+  { path: '/system/help',meta: {title: '帮助',index: 3},component: () => import('../views/Help/Help.vue') },                   // 帮助页
   { path: '/system/manager/:orgid',meta: {title: '成员管理',index: 4},component: () => import('../views/Manager/Manager.vue') },  // 成员管理页
   { path: '/system/vieworg/:orgid',meta: {title: '查看组织',index: 4},component: () => import('../views/ViewOrg/ViewOrg.vue') },  // 查看组织页
   { path: '/system/editorg/:orgid',meta: {title: '组织编辑',index: 4},component: () => import('../views/EditOrg/EditOrg.vue') },  // 编辑组织页

@@ -7,8 +7,9 @@
             <center-func url="/system/list/built" imgsrc="have.png" title="已创建"></center-func>
             <center-func url="/system/list/collected" imgsrc="collect.png" title="我的收藏"></center-func>
             <center-func url="/system/build" imgsrc="build.png" title="创建"></center-func>
-            <center-func url="/system/build" imgsrc="help.png" title="帮助/意见反馈"></center-func>
+            <center-func url="/system/help" imgsrc="help.png" title="帮助/意见反馈"></center-func>
         </div>
+
     </div>
 </template>
 
